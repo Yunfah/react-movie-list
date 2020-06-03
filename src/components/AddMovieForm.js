@@ -1,7 +1,7 @@
 import React, { Component, useState, useRef } from "react";
 
 
-// This is the form that a user can add movies 
+// input form för användaren
 export default function AddMovie({ addMovie }) {
     const [title, setTitle] = useState('')
     const [grade, setGrade] = useState('')
